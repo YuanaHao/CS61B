@@ -6,9 +6,9 @@ public class Collatz {
 
     /** Buggy implementation of nextNumber! */
     public static int nextNumber(int n) {
-        /** If odd, it will return 3n + 1 */
+        /** If odd, it will return 3n +1 */
         if (n % 2 != 0) {
-            return 3 * n + 1;
+            return 3*n + 1;
         }
         /** If even, it will return n / 2 */
         else {
